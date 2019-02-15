@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+	/*background-color: rgb(240, 240, 240);*/
+}
+
+#title {
+	height: 20vh;
+}
+
+ul {
+	text-align: center; 
+	padding: 0;
+	margin-bottom: 0;
+}
+
+li {
+	display: inline;
+	padding: 0 5vw;
+}
+
+a {
+	color: #191970;
+	font-size: large;
+}
+
+#logo {
+	height: 30vh;
+}
+
+#hero {
+	width: 100%;
+	height: 55vh;
+	/*background: url("images/homeHero.jpg"); */
+	background-size: cover; 
+	margin-top: 10vh;
+}
+
+h1 {
+	text-align: center; 
+	font-family: "Nunito", sans-serif;
+	margin-top: 6vh;
+	text-transform: uppercase;
+}
+
+span {
+	color: #191970;
+}
+
+p {
+	font-family: "Roboto", sans-serif;
+	margin: 0 auto;
+	margin-top: 4vh;
+	width: 70%;
+	text-align: center;
+	line-height: 45px;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#end {
+  background-color: #191970; 
+  color: white;
+  padding: 2%;
+  margin: 5vh 0 0 0;
+  list-style: none;
+  text-align: left;
+  /*-moz-column-count: 2;*/
+  /*-moz-column-gap: 10px;*/
+  /*-webkit-column-count: 2;*/
+  /*-webkit-column-gap: 10px;*/
+  /*column-count: 2;*/
+  /*column-gap: 10px;*/
+}
+
+#end li {
+	display: block;
+  	padding: 5px 0;
+}
+
+.contactEnd {
+  color: gold;
+}
+
+#end a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+#end a:hover {
+	color: rgb(150, 150, 150);
+}
+
+#created {
+    padding: 0 50px 0 0;
+    margin: -75px 0 0;
+    text-align: right;
+    color: white;
+    width: 100%;
+}
+
+.col-md-4 {
+	border: 1px solid black;
+	padding: 0 10px;
+	height: 30vh;
+}
+
+.container {
+    padding: 8vh 0 0 0;
+}
+
+#what {
+	background-image: url("images/colors.jpeg");
+	background-size: cover;
+}
+
+#we {
+	background-image: url("images/wall.jpeg");
+	background-size: cover;
+}
+
+#do {
+	background-image: url("images/dog.jpeg");
+	background-size: cover;
+}
+
+#picName {
+	padding: 0 0 20px 0;
+}
+
+.picTag {
+	height: 5vh;
+}
+
+@media (max-height: 780px) {
+	.picTag {
+		height: 6vh;
+	}
+
+	.thePic {
+		height: 40vh;
+	}
+}
+
+@media (max-height: 600px) {
+	.picTag {
+		height: 8vh;
+	}
+}
+
+.explain {
+	letter-spacing: 2px;
+	margin-top: 0;
+	font-size: large;
+	font-weight: bold;
+}
+
+#myShit {
+	color: red;
+}
