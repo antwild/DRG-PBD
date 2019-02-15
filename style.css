@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-html {
-	height: 100%;
-}
+body, html, main{height:100%;}
 
 #title {
 	height: 20vh;
