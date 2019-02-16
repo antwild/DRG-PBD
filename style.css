@@ -30,7 +30,7 @@ a {
 #hero {
 	width: 100%;
 	height: 55vh;
-	/*background: url("images/homeHero.jpg"); */
+	background: url("images/homeHero.jpg");
 	background-size: cover; 
 	margin-top: 10vh;
 	z-index: 5;
