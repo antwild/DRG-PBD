@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-body, html, main{height:100%;}
-
 #title {
 	height: 20vh;
 }
@@ -30,11 +28,9 @@ a {
 #hero {
 	width: 100%;
 	height: 55vh;
-	/*background: url("images/homeHero.jpg"); */
+	background: url("images/homeHero.jpg");
 	background-size: cover; 
 	margin-top: 10vh;
-	z-index: 5;
-	position: static;
 }
 
 h1 {
