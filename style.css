@@ -26,7 +26,7 @@ a {
 }
 
 #logo {
-	height: 30vh;
+	height: 20vh;
 }
 
 #hero {
@@ -223,6 +223,15 @@ i {
   #end li {
     font-size: small;
   }
+  .container {
+    width: 92%;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 14px;
+  }
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -230,15 +239,9 @@ i {
   display: none;
 }
 
-@media (max-width: 1014px) {
-  #logo {
-    padding-left: 5vw!important;
-  }
-}
-
 @media (max-width: 950px) {
   .topnav a {
-    padding: 14px 3vw;
+    padding: 4px 3vw;
   }
 }
 
@@ -248,6 +251,7 @@ i {
   .topnav a.icon {
     text-align: center;
     display: block;
+    text-decoration: none;
   }
 }
 
