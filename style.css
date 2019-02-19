@@ -154,6 +154,16 @@ i {
 	background-size: cover;
 }
 
+.picText {
+	text-align: center;
+	line-height: 30vh;
+	font-family: "Nunito", sans-serif;
+    	font-size: 30px;
+    	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    	color: antiquewhite;
+	display: none;
+}
+
 #picName {
 	padding: 0 0 20px 0;
 }
@@ -231,6 +241,15 @@ i {
   }
   p {
     font-size: 14px;
+  }
+  .picText {
+    display: block;
+  }
+  #picName {
+    display: none; 
+  }
+  .col-md-4 {
+    margin: 10px 0;
   }
 }
 
