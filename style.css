@@ -242,6 +242,11 @@ i {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 16vh;
+    margin-top: 20px;
+  }
+  #hero {
+    background-position: -250px 
   }
   .thePic {
     padding: 0;
