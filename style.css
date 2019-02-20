@@ -26,6 +26,11 @@ a {
 	font-size: large;
 }
 
+.active {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 #logo {
 	height: 20vh;
 }
