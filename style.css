@@ -211,12 +211,15 @@ i {
 
 /* Tablet sized screens */
 /* Landscape tablet */
-@media (max-width: 1340px) {
+@media (max-width: 1370px) {
 	#logo {
-		height: 16vh;
+		height: 15vh;
 	}
 	#hero {
 		margin-top: 0;
+	}
+	#title {
+		height: 8vh
 	}
 }
 
