@@ -236,6 +236,7 @@ i {
 	li {
 		padding: 0 3vw;
 	}
+}
 
 /* Portrait tablet */
 @media (max-width: 800px) {
