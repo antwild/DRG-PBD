@@ -219,7 +219,9 @@ i {
 		margin-top: 0;
 	}
 	#title {
-		height: 8vh
+		height: 8vh;
+		margin-top: 5px;
+		margin-bottom: 77px;
 	}
 }
 
