@@ -225,6 +225,18 @@ i {
 	}
 }
 
+/* Large portrait tablet like iPad Pro */
+@media (max-width: 1025px) {
+	#logo {
+		height: 10vh;
+	}
+	#title {
+		margin-bottom: 47px;
+	}
+	li {
+		padding: 0 3vw;
+	}
+
 /* Portrait tablet */
 @media (max-width: 800px) {
 	#title {
