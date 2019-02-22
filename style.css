@@ -307,6 +307,14 @@ i {
   }
 }
 
+/* Landscape phones */
+
+@media (max-width: 850px) and (max-height: 500px) {
+	#logo {
+		height: 19vh;
+	}
+}
+
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
