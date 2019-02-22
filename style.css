@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 body {
-	background-color: #EEF0F2;
+/* 	background-color: #EEF0F2; */
+	background: #43C6AC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #title {
@@ -22,7 +25,8 @@ li {
 }
 
 a {
-	color: #191970;
+/* 	color: #191970; */
+	color: white;
 	font-size: large;
 }
 
@@ -49,6 +53,7 @@ h1 {
 	font-family: "Nunito", sans-serif;
 	margin-top: 6vh;
 	text-transform: uppercase;
+	color: white;
 }
 
 span {
@@ -62,6 +67,7 @@ p {
 	width: 70%;
 	text-align: center;
 	line-height: 45px;
+	color: white;
 }
 
 i {
