@@ -19,6 +19,7 @@ ul {
 li {
 	display: inline;
 	padding: 0 5vw;
+	background-color: yellow;
 }
 
 a {
@@ -49,6 +50,10 @@ h1 {
 	font-family: "Nunito", sans-serif;
 	margin-top: 6vh;
 	text-transform: uppercase;
+}
+
+#servicesH1 {
+	padding-top: 5vh;
 }
 
 span {
@@ -157,6 +162,51 @@ i {
 
 #do {
 	background-image: url("images/dog.jpeg");
+	background-size: cover;
+}
+
+#plaster {
+	background-image: url("images/plaster.jpg");
+	background-size: cover;
+}
+
+#paint {
+	background-image: url("images/paint.jpeg");
+	background-size: cover;
+}
+
+#floor {
+	background-image: url("images/floor.jpeg");
+	background-size: cover;
+}
+
+#tiling {
+	background-image: url("images/tiling.jpeg");
+	background-size: cover;
+}
+
+#carpentry {
+	background-image: url("images/carpentry.jpeg");
+	background-size: cover;
+}
+
+#electrics {
+	background-image: url("images/electrics.jpeg");
+	background-size: cover;
+}
+
+#plumbing {
+	background-image: url("images/plumbing.jpg");
+	background-size: cover;
+}
+
+#gas {
+	background-image: url("images/gas.jpeg");
+	background-size: cover;
+}
+
+#bathrooms {
+	background-image: url("images/bathrooms.jpeg");
 	background-size: cover;
 }
 
@@ -348,4 +398,3 @@ i {
     text-align: center;
   }
 }
-
