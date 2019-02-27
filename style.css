@@ -19,6 +19,7 @@ ul {
 li {
 	display: inline;
 	padding: 0 5vw;
+	background-color: yellow;
 }
 
 a {
@@ -149,6 +150,15 @@ i {
     padding: 8vh 0 0 0;
 }
 
+.container.serviceGrid {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.serviceTag {
+	background: beige;
+}
+
 #what {
 	background-image: url("images/colors.jpeg");
 	background-size: cover;
@@ -228,8 +238,12 @@ i {
 }
 
 @media (max-height: 780px) {
+	#servicesH1 {
+		padding: 0 0 5vh 0;
+	}
+
 	.picTag {
-		height: 6vh;
+		height: 8vh;
 	}
 
 	.thePic {
