@@ -258,11 +258,14 @@ i {
 	color: red;
 }
 
+/*  This doesn't work properly. Doesn't take priority over the line 270 below
+
 @media (max-width: 1370px) and (max-height: 928px) {
 	#logo {
 		height: 21bh;
 	}
 }
+ */
 
 /* Tablet sized screens */
 /* Landscape tablet */
